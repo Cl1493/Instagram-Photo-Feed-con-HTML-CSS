@@ -1,0 +1,27 @@
+h1{
+    font-family:"Cambria";
+}
+.Feed {
+    display: flexbox;
+    background-color:gainsboro;
+    margin:0;
+}
+.Photo{
+    Background-color:white;
+    margin:0 auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    width:550px;
+    height:400px;
+    display: inlinr-block;
+}
+.Topphoto{
+    display:flex;
+}
+h2{
+    float:left;
+}
+h3{
+    float:right;
+    color:gainsboro;
+}
