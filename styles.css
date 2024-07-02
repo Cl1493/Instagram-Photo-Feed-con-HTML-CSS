@@ -1,12 +1,19 @@
+body{ 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: gainsboro;
+}
 h1{
-    font-family:"Cambria";
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align:center;
     border-bottom:1cm;
+    margin: 2%;
+    
 }
 .Feed {
     display: flexbox;
     background-color:gainsboro;
-    margin:0;
+    margin: 2px;
+    margin-top: 10px;
 }
 .Photo{
     Background-color:white;
@@ -15,17 +22,19 @@ h1{
     margin-bottom:20px;
     width:550px;
     height:470px;
-    display: inlinr-block;
+    border-radius: 2%;
 }
 img{
     width: 550px;
     height: 300px;
 }
 .Topphoto{
-    display:flex;
+    display: inline;
     height:60px;
     border:1px;
     border-bottom-color:gainsboro;
+    align-items: center;
+   
 }
 h2{
     float:left;
@@ -35,9 +44,8 @@ h2{
 h3{
     float:right;
     color:grey;
-    margin-left:10px;
+    
     margin-right:10px;
-    text-align: right;
 }
 p{
     margin:4%;
